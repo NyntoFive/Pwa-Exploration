@@ -1,0 +1,30 @@
+{
+  "name": "pwa-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest test/e2e.test.js",
+    "start": "npx http-server -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "standard": "^12.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.5.1",
+    "puppeteer": "^1.10.0"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  }
+}
